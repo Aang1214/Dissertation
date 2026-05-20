@@ -1,0 +1,90 @@
+Prompt:
+
+Create a function that categorizes accident causes by keyword into fewer than 85 groups. The key is to group similar cases together to avoid duplication, and then specify the percentage of accidents that fall into each group. These groups are listed below.
+
+Accident_Cause
+Driver's lack of attention to conveyance                           107788
+Incompatible velocity                                               43722
+Driver's lack of reaction                                           40883
+Driver broke the laws of transit                                    29318
+Alcohol consumption                                                 22140
+Disrespect of safe distance from the next car                       17929
+Driver was sleeping                                                 16820
+Mechanical loss/defect of vehicle                                   15850
+Acessing the road without seeing the presence of other vehicles     14973
+Slippery track                                                      12648
+Driver failed to keep distance from the vehicle in front            12262
+Alcohol ingestion by the driver                                     11229
+Animals on the road                                                 10533
+The driver passed the next car improperly                            9943
+Lane change maneuver                                                 9905
+Pedestrian's lack of attention                                       8076
+Excessive use of the car's tire                                      7566
+Electrical or mechanical flaws                                       7246
+Driver was in the opposite direction                                 5418
+Road's defect                                                        4487
+Disrespecting the intersection                                       4106
+Static object on the drainage gate                                   3326
+Rain                                                                 3095
+Cardiac attack                                                       2951
+Visibility restriction                                               2403
+Excessive load/cargo                                                 2364
+Traffic with a motorcycle (or similar) between lanes                 2290
+Prohibited conversion                                                2266
+Alcohol and/or drug ingestion by the pedestrian                      2138
+Pedestrian was walking in the road                                   1780
+Unexpected pedestrian entry                                          1766
+Irregular access                                                     1705
+Pedestrian was crossing the road outside of the crosswalk            1583
+Accumulation of water on the road                                    1533
+Driver had a cardiac attack                                          1515
+Natural phenomena                                                    1430
+Deficiency of vehicle's sinalization/ilumination system              1258
+Inadequate sinalization of the road                                  1193
+Roads with holes without cement                                      1116
+Abrupt use of the car's brake                                        1095
+External fight                                                       1084
+Disobedience to laws of transit by the pedestrian                    1055
+Car's brake problem                                                   846
+Driving on the breakdown lane                                         827
+Driver changed the lane illegally                                     778
+Driver disrespected the red traffic light                             741
+Curvy road                                                            726
+Other flaws/problems in the road                                      660
+Road had lots of sand/wreckage                                        651
+Absence of sinalization                                               526
+Sinking or ondulation in the pavement                                 483
+Uneven breakdown lane                                                 480
+Oil accumulation on the road                                          437
+Poor ilumination (of the road)                                        411
+Stopping at a prohibited place                                        403
+Road works (in maintenance)                                           342
+Drug ingestion                                                        331
+Driver using cellphone                                                322
+Urban area without appropriate pedestrian walking                     275
+Obstacle in the road                                                  238
+Driver was using drugs                                                236
+No breakdown lanes                                                    234
+Unlevel track                                                         180
+Fog                                                                   170
+Car's suspension system with problems                                 163
+Temporary return                                                      121
+Bad positioning of traffic sign posts                                 118
+driving on the breakdown lane                                         114
+Prominent downhill                                                     90
+Smoke                                                                  87
+Visibility restrictions in horizontal curves                           71
+Pedestrian crosswalk with insufficient width                           34
+prohibited modification (of the car)                                   31
+car's on sidewalk                                                      31
+Failed to activate the motorcycle headlight (or similar)               31
+Visibility restrictions in vertical curves                             30
+speed reducer wasn't working correctly                                 25
+engaging in drifting                                                   24
+Traffic lights with problems                                           22
+unregulated headlights                                                 20
+hidden/covered sinalization (of the road)                              11
+robbery attempt                                                        10
+mental disorder (except suicide)                                        6
+suicide (presumed)                                                      5
+inefficiency of the drenage system                                      4
