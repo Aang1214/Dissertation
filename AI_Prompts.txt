@@ -88,3 +88,38 @@ robbery attempt                                                        10
 mental disorder (except suicide)                                        6
 suicide (presumed)                                                      5
 inefficiency of the drenage system                                      4
+
+I got this brazilian traffic accident data. Each row has a State column with those 2-letter codes
+
+State
+MT   1.230
+BA   1.229
+MG   1.219
+GO   1.217
+MS   1.215
+AC   1.212
+MA   1.203
+AP   1.194
+ES   1.194
+RO   1.194
+RS   1.183
+TO   1.179
+PR   1.159
+PI   1.156
+PA   1.155
+AL   1.152
+SC   1.152
+AM   1.138
+RJ   1.126
+PE   1.113
+CE   1.111
+RR   1.110
+RN   1.105
+SE   1.104
+PB   1.101
+SP   1.083
+DF   1.080
+
+Therefore for my EDA I need to group them into the 5 big regions brazil uses (north, northeast, center-west, southeast, south).
+
+Could you also double check that all 27 states are there and nothing got put in two regions by accident
