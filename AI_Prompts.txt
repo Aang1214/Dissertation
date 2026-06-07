@@ -89,6 +89,8 @@ mental disorder (except suicide)                                        6
 suicide (presumed)                                                      5
 inefficiency of the drenage system                                      4
 
+Prompt:
+
 I got this brazilian traffic accident data. Each row has a State column with those 2-letter codes
 
 State
@@ -123,3 +125,26 @@ DF   1.080
 Therefore for my EDA I need to group them into the 5 big regions brazil uses (north, northeast, center-west, southeast, south).
 
 Could you also double check that all 27 states are there and nothing got put in two regions by accident
+
+Prompt:
+(I asked AI to create tables for Overleaf based on the tables from EDA, and I modified them to be more suitable for the interim report. Here is the example:)
+
+Could you create a table for Overleaf based on the output I got from my code?
+
+                                                accidents  fatal_share  accident_share
+Cause_Group                                                                           
+Driver behaviour                                   227662        0.065           0.492
+Speed & following distance                          75854        0.058           0.164
+Alcohol / Drugs                                     36074        0.054           0.078
+Vehicle defect                                      34529        0.029           0.075
+Road condition / infrastructure                     28601        0.042           0.062
+Driver state (fatigue / medical / distraction)      21614        0.094           0.047
+Pedestrian-related                                  14569        0.309           0.031
+Animals                                             10533        0.050           0.023
+Visibility & signage                                 5372        0.084           0.012
+Weather                                              4525        0.047           0.010
+Other                                                3800        0.056           0.008
+
+
+
+
