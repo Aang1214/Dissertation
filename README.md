@@ -13,9 +13,11 @@ The main difference lies in how to handle the number of classes being predicted 
 
 The purpose of this project is to find a machine learning model capable of balancing the data and predicting these cases:
 
-*Without victims*
-*With injured victims*
-*With dead victims*
+* *Without victims*
+
+* *With injured victims*
+
+* *With dead victims*
 
 There is no requirement for participants to attend or help with this project.
 
