@@ -127,7 +127,7 @@ Therefore for my EDA I need to group them into the 5 big regions brazil uses (no
 Could you also double check that all 27 states are there and nothing got put in two regions by accident
 
 Prompt:
-(I asked AI to create tables for Overleaf based on the tables from EDA, and I modified them to be more suitable for the interim report. Here is the example:)
+(Asked AI to create tables for Overleaf based on the tables from EDA, and personally modified them to be more suitable for the interim report. Here is the example:)
 
 Could you create a table for Overleaf based on the output I got from my code?
 
