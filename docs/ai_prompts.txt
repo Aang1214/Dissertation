@@ -145,6 +145,16 @@ Visibility & signage                                 5372        0.084          
 Weather                                              4525        0.047           0.010
 Other                                                3800        0.056           0.008
 
+Prompt:
 
+Create an image of a blank map of Brazil with roads 116 and 101 highlighted (don't label them or anything like that)
 
+Prompt:
 
+Based on my interim report I've decided on three things to do for phase 1:
+
+1. stratified 80/20 split on Victims_Condition, fixed seed
+2. evaluation module Accuracy, macro-F1 (primary), per-class F1 and MCC (secondary)
+3. DummyClassifier baseline as Naive classifier. 
+
+How should I approach with writing the evaluation function as a reusable import. Can you help me decide folder structure and tell me the differenced between parquet and CSV files. 
