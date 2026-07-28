@@ -158,3 +158,12 @@ Based on my interim report I've decided on three things to do for phase 1:
 3. DummyClassifier baseline as Naive classifier. 
 
 How should I approach with writing the evaluation function as a reusable import. Can you help me decide folder structure and tell me the differenced between parquet and CSV files. 
+
+Prompt:
+
+For Phase 2 I have decided to use 6 machine learning models (Logistic Regression, Decision Tree, Random Forest, XGBoost, LightGBM, CatBoost). Could tell me how should I approach this specific models, what should I be careful about or remember to do and compare the macro-F1 result.
+
+Prompt:
+
+I had finally finished the code to compare all the models but I would like to have quick sanity check for DecisionTree. Could you take this code [insert the baseline_models.ipynb] and just run it with max_depth = 20. 
+  
