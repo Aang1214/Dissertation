@@ -46,11 +46,11 @@ There is no requirement for participants to attend or help with this project.
 - [x] Poster presentation (10–11 June 2026)
 
 **In progress / upcoming**
-- [ ] Phase 1 — Finalise dataset, evaluation module (mid–late June 2026)
-- [ ] Phase 2 — Baseline modelling, 6 classifiers (late June 2026) → RQ1
-- [ ] *Three-week summer break (late June – mid July)*
-- [ ] Phase 3 — Imbalance grid: 7 methods × top 3 classifiers (mid–late July 2026) → RQ2
-- [ ] Phase 4 — Hyperparameter tuning (Optuna) on top 2–3 combinations (early August 2026) → RQ2
+- [x] Phase 1 — Finalise dataset, evaluation module (mid–late June 2026)
+- [x] Phase 2 — Baseline modelling, 6 classifiers (late June 2026) → RQ1
+- [x] *Three-week summer break (late June – mid July)*
+- [x] Phase 3 — Imbalance grid: 7 methods × top 3 classifiers (mid–late July 2026) → RQ2
+- [x] Phase 4 — Hyperparameter tuning (Optuna) on top 2–3 combinations (early August 2026) → RQ2
 - [ ] Phase 5 — SHAP analysis on best tuned model (early–mid August 2026) → RQ3
 - [ ] Phase 6 — Writing remaining chapters (late August – early September 2026)
 - [ ] Final dissertation submission (early September 2026)
