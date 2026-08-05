@@ -1,1 +1,3 @@
 *.csv
+outputs/results/phase5_shap_values_full.npz
+outputs/results/phase5_shap_values_sample.npz
