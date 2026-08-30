@@ -161,9 +161,207 @@ How should I approach with writing the evaluation function as a reusable import.
 
 Prompt:
 
+As you just mentioned the evaluation function, could you tell me exactly how would you compute accuracy, macro-F1, per-class F1, and MCC in one call. 
+
+Prompt:
+
+And how would you structure it?
+
+Prompt:
+
+For F1-score, why would you set zero_division to be 0
+
+Prompt:
+
+What is DummyClassifier exactly and what is the difference between DummyClassifier and Logistic Regression. 
+
+Prompt:
+
+Ok, could write the code again with all information you gain through my questions and write a code which would load the cleaned parquet file, apply the 80/20 stratified split with random_state=25, and save the four output files back to parquet.
+
+Prompt:
+
+Could you also print how many rows per set is there so I can see the visible ratio? 
+
+Prompt:
+
 For Phase 2 I have decided to use 6 machine learning models (Logistic Regression, Decision Tree, Random Forest, XGBoost, LightGBM, CatBoost). Could tell me how should I approach this specific models, what should I be careful about or remember to do and compare the macro-F1 result.
 
 Prompt:
 
-I had finally finished the code to compare all the models but I would like to have quick sanity check for DecisionTree. Could you take this code [insert the baseline_models.ipynb] and just run it with max_depth = 20. 
+Preprocessing pipeline for all six classifiers, why should I do it and what benefits it contains?
+
+Prompt:
+
+What is sparse_output exactly?
+
+Prompt:
+
+5-fold stratified cross-validation with cross_val_score and scoring='f1_macro', how should I set it up.
+
+Prompt:
+
+Why does XGBoost need integer-encoded targets for multiclass?
+
+Prompt:
+
+How would you adapt XGBoost to handle multiple classes, if you know what I mean?
+
+Prompt:
+
+Is it possible to write a function which would build a Pipeline with StandardScaler for numerics and OneHotEncoder(handle_unknown='ignore', sparse_output=True) for categoricals? Before using classifiers. 
+
+Prompt:
+
+Ok it looks good, now is it possible to write a loop, which would use this pipeline for all six classifiers and compare them in CSV file? If so, how?
+
+Prompt:
+
+LightGBM is last, did I do something wrong? Is it okay or should I change something?
+
+Prompt:
+
+I had finally finished the code to compare all the models but I would like to have quick sanity check for DecisionTree. Could you take this code [insert the baseline_models.ipynb] and just run it with max_depth = 20. I want to test whenever it is overfitted. Could you tell me any recommendation?
+
+Prompt:
+
+Could you add those two test to it to check it?
+
+Prompt:
   
+What is the difference between sklearn.pipeline.Pipeline and imblearn.pipeline.Pipeline, how is it connected with SMOTE?
+
+Prompt:
+
+RandomOverSampler vs SMOTE, what is the difference?
+
+Prompt:
+
+ADASYN vs SMOTE, what is the difference?
+
+Prompt:
+
+How would you implement all 7 imbalance technique (None, RandomOverSampler, RandomUnderSampler, SMOTE, ADASYN, SMOTE+Tomek, Class weighting) with the top 3 models?
+
+Prompt:
+
+Would you run everything at the same time or gradually? Could you time as well?
+
+Prompt:
+
+What is wrong with combination XGBoost and class_weight, what should I do about it?
+
+Prompt:
+
+How would you write a manual 5-fold CV loop?
+
+Prompt:
+
+Also ensuring that the results are comparable with those of my other experiments
+
+Prompt:
+
+How do I save models, what options I have?
+
+Prompt:
+
+Could you write a code to save those files in Joblib. 
+
+Prompt:
+
+[Insert the results of Phase 3]
+DecisionTree did not performed the best, what could be the reasoning? Again, did I do something wrong? I was trying to find something on the internet, but I am still not sure.
+
+Prompt:
+
+Why did SMOTE-TOMEK took 9 hours each to perform. The results are not as great to mention.  
+
+Prompt:
+
+For hyperparameter tuning, I want to use Bayesian hyperparameter optimisation, could you show me how would you program it with those saved Joblib files with the seed 25. 
+
+Prompt:
+
+I would like to run it 50 times, each of them.
+
+Prompt:
+
+Would it be possible to have some history plots and importance plots?
+
+Prompt:
+
+This seems alright. Any other suggestion for the code?
+
+Prompt:
+
+Yea, load_if_exists=True would be usefull. Try to implement it.
+
+Prompt:
+
+Yes, write a code to save it as a Joblib file.
+
+Prompt:
+
+I think I have set the values for the hyperparameters correctly. Maybe only Maxdepth and Depth. Should I do something about it? or is it okay?
+
+Prompt:
+
+Also from those plots, there is small difference of the final value from 30 to 50. But thats should be optimal I think. Any recommendation?
+
+Prompt:
+
+Ok, almost finished. Now, I need help to write a code for explainability by using TreeSHAP. Any suggestion how should I see this approach?
+
+Prompt:
+
+How would you approach the final test set evaluation? How would you write a code ofr it?
+
+Prompt:
+
+How would you test it?
+
+Prompt:
+
+Write a code to save the metrics DataFrame and confusion matrix to CSV files.
+
+Prompt:
+
+I heard something about .npz , would you recommended for saving the shap values?
+
+Prompt:
+
+Also, It would be nice if possible to convert back the OHE features. Is it even possible?
+
+Prompt:
+
+Now I understand, ok so, could you write a code which would aggregate raw OHE SHAP values back to the original 21 features?
+
+Prompt:
+
+For explainability, It would be nice to create some plots to better see the results. Is there any specific which would you recommend, besides standard plots?
+
+Prompt:
+
+Ok could you also create a global bar, also Beeswarm plot you just mentioned for Global SHAP plots.
+
+Prompt:
+
+Also could you create a for loop to create per-class shap importance plot.
+
+Prompt:
+
+Could you generate three per-class bar plots for fatal accidents?
+
+Prompt:
+
+How would you write a code to see the correct prediction of the model?
+
+Prompt:
+
+Ok, could you do the waterfall plot as you just mention?
+
+Prompt:
+
+Now, finally, now [insert the 10k sample code], I want to do the full test set for SHAP. I think it should be finished now.
+
+
