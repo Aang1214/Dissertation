@@ -51,9 +51,9 @@ There is no requirement for participants to attend or help with this project.
 - [x] *Three-week summer break (late June – mid July)*
 - [x] Phase 3 — Imbalance grid: 7 methods × top 3 classifiers (mid–late July 2026) → RQ2
 - [x] Phase 4 — Hyperparameter tuning (Optuna) on top 2–3 combinations (early August 2026) → RQ2
-- [ ] Phase 5 — SHAP analysis on best tuned model (early–mid August 2026) → RQ3
-- [ ] Phase 6 — Writing remaining chapters (late August – early September 2026)
-- [ ] Final dissertation submission (early September 2026)
+- [x] Phase 5 — SHAP analysis on best tuned model (early–mid August 2026) → RQ3
+- [x] Phase 6 — Writing remaining chapters (late August – early September 2026)
+- [x] Final dissertation submission (early September 2026)
 
 ## Data source
 
